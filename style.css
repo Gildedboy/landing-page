@@ -2,90 +2,79 @@
   font-family: Roboto, sans-serif;
 }
 
-body {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #e5e7eb;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-ul {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 18px;
-  font-size: 18px;
-  color: #e5e7eb;
-  list-style: none;
-}
-h1 {
-  font-size: 48px;
-  font-weight: bold;
-  color: #f9faf8;
-  margin: 0;
-}
-
-p {
-  font-size: 18px;
-  color: #e5e7eb;
-}
-
-.hero {
-  background-color: #1f2937;
-  color: #f9faf8;
-  font-size: 24px;
-  padding: 16px 250px 150px 250px;
-}
-
-.logo {
-  color: #f9faf8;
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  font-size: 24px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
-
-.hero-content {
-  display: flex;
-  justify-content: space-between;
-  flex: auto;
-  gap: 70px;
-  margin-top: 100px;
-}
-
-.hero-text {
+html {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
-
-.hero-image {
-  width: 600px;
+body,
+h3,
+p {
+  margin: 0;
+}
+/*SECTION 3 CSS*/
+.section-3 {
   display: flex;
-  flex-shrink: 0;
-  flex-basis: auto;
   justify-content: center;
   align-items: center;
-  color: #e5e7eb;
-  background-color: grey;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  opacity: 0.8;
 }
-button {
-  width: 140px;
-  height: auto;
-  font-size: 18px;
-  background-color: #3882f6;
-  color: #e5e7eb;
-  border-radius: 10px;
-  border: none;
+.quote {
+  align-self: center;
+  justify-content: center;
+  text-align: justify;
+}
+.quote-author {
+  align-self: flex-end;
+  font-style: normal;
   font-weight: bold;
-  padding: 8px;
+  color: black;
+}
+
+/*SECTION 4 CSS*/
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.call-to-action {
+  display: flex;
+  background-color: #3882f6;
+  color: white;
+  height: 150px;
+  width: 900px;
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+.call-to-action-text {
+  padding: 50px 100px;
+  color: #e5e7eb;
+}
+.call-to-action button {
+  color: white;
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 8px 32px;
+  margin: auto;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
