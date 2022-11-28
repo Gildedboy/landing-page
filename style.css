@@ -17,10 +17,37 @@ h3 {
   font-size: 20px;
   color: white;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*SECTION 1 CSS - Hero Section - NOT COMPLETED */
+
 .section-1 {
   background-color: #1f2937;
+  height: 470px;
 }
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.hero-text button {
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 8px 32px;
+  margin: auto;
+}
+
 /*SECTION 2 CSS - Information Section - COMPLETED*/
+
 .section-2 {
   display: flex;
   flex-direction: column;
@@ -69,6 +96,7 @@ h3 {
 }
 
 /*SECTION 3 CSS - Quoute Section - COMPLETED*/
+
 .section-3 {
   display: flex;
   flex-direction: column;
@@ -79,15 +107,18 @@ h3 {
   opacity: 0.8;
   height: 400px;
 }
+
 .quote {
   width: 820px;
 }
+
 .quote-text {
   font-size: 36px;
   color: #1f2937;
   font-style: italic;
   opacity: 0.8;
 }
+
 .quote-author {
   text-align: right;
   font-style: normal;
@@ -109,7 +140,7 @@ h3 {
   display: flex;
   background-color: #3882f6;
   color: white;
-  height: 150px;
+  height: inherit/2;
   width: 900px;
   border-radius: 10px;
   justify-content: space-evenly;
