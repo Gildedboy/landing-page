@@ -31,9 +31,63 @@ body {
 
 .hero-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 1200px;
   height: inherit;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+}
+.logo {
+  flex-grow: 1;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  list-style: none;
+}
+
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.hero-information {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  gap: 50px;
+}
+.hero-information h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin: 0;
+}
+.hero-information p {
+  color: #e5e7eb;
+}
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e5e7eb;
+  width: 800px;
+  height: 200px;
 }
 
 .hero-text button {
