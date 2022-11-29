@@ -1,6 +1,8 @@
 * {
   font-family: Roboto, sans-serif;
   font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -8,11 +10,7 @@ html {
   flex-direction: column;
   justify-content: space-between;
 }
-body,
-h3,
-p {
-  margin: 0;
-}
+
 h3 {
   font-size: 20px;
   color: white;
@@ -32,16 +30,23 @@ body {
 .hero-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 1200px;
-  height: inherit;
+  height: 100%;
+  width: 100%;
+  gap: 110px;
+}
+.hero-information {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  gap: 50px;
 }
 
 .navbar {
   display: flex;
   justify-content: space-around;
   width: 1000px;
+  margin-top: 20px;
 }
 .logo {
   flex-grow: 1;
@@ -65,12 +70,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-.hero-information {
-  display: flex;
-  justify-content: space-around;
-  width: 1000px;
-  gap: 50px;
-}
+
 .hero-information h1 {
   font-size: 48px;
   font-weight: bolder;
@@ -86,8 +86,8 @@ a:hover {
   align-items: center;
   text-align: center;
   background-color: #e5e7eb;
-  width: 800px;
-  height: 200px;
+  width: 900px;
+  height: 100%;
 }
 
 .hero-text button {
@@ -96,7 +96,7 @@ a:hover {
   border: none;
   border-radius: 10px;
   font-weight: bold;
-  padding: 8px 32px;
+  padding: 8px 38px;
   margin: auto;
 }
 
@@ -106,7 +106,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 400px;
   padding-bottom: 100px;
 }
@@ -211,7 +211,7 @@ a:hover {
   border: 2px solid white;
   border-radius: 10px;
   font-weight: bold;
-  padding: 8px 32px;
+  padding: 8px 38px;
   margin: auto;
 }
 
