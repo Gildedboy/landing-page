@@ -25,6 +25,7 @@ body {
 .section-1 {
   background-color: #1f2937;
   padding-bottom: 130px;
+  display: flex;
 }
 
 .hero-container {
